@@ -1,0 +1,10 @@
+.git
+.gitignore
+README.md
+docker-compose.yml
+Dockerfile
+.dockerignore
+vendor/   # si vous installez composer à l'intérieur du conteneur
+.env
+.idea/
+.vscode/

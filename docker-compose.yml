@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: ifri
+    ports:
+      - "127.0.0.1:8080:80"   # accessible seulement en local sur le port 8080
+    volumes:
+      - .:/var/www/html        # pour le développement (modifications en direct)
+    restart: unless-stopped
