@@ -10,6 +10,6 @@ class AllConstants {
     public static $DB_NAME = "ifridbnew";
     public static $DB_USERNAME = "root";
     public static $DB_PASSWORD = "password"; 
-    public static $DB_HOST = "127.0.0.1";
+    public static $DB_HOST = "172.17.0.1";
 
 }
